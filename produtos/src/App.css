@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+  
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content{
+    width: 100%;
+
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.3);
+    overflow: auto; 
+    padding: 24px;
+    display: grid; 
+}
+
+
+.description_button{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    padding: 21px 10px;
+    
+}
+
+.description_button h1{
+    font-size: 30px;
+}
+
+.description_button button{
+    background-color: #247cdc;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.lista_produtos{
+    display: flex;
+}
+
+
