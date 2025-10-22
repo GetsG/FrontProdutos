@@ -25,6 +25,11 @@
       "react-app/jest"
     ]
   },
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -37,4 +42,6 @@
       "last 1 safari version"
     ]
   }
+  
+  
 }
